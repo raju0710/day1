@@ -1,0 +1,14 @@
+kilo ={'name':'raju','age':20,'city':'mumbai'}
+print(kilo)
+print("accessing and modify the kilo age:")
+kilo["age"]=20
+print(kilo)
+print("adding and removing items ")
+kilo['email']='konangisrinivasaraju2004@gmail.com'
+print(kilo)
+del kilo['city']
+print(kilo)
+print("all keys ,&values")
+print(kilo.keys())
+print(kilo.values())
+print(kilo)
